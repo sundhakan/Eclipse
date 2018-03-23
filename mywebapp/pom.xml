@@ -44,7 +44,7 @@
           <groupId>org.apache.tomcat.maven</groupId>
           <artifactId>tomcat6-maven-plugin</artifactId>
           <version>2.2</version>
-          <!--tomcat6:run-war   tomcat7:shutdown  -->
+         
         </plugin>
    
     <plugin>
