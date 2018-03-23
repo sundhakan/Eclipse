@@ -1,0 +1,20 @@
+[INFO] Scanning for projects...
+[WARNING] The POM for org.eclipse.jetty:jetty-maven-plugin:jar:9.4.9-SNAPSHOT is missing, no dependency information available
+[WARNING] Failed to retrieve plugin descriptor for org.eclipse.jetty:jetty-maven-plugin:9.4.9-SNAPSHOT: Plugin org.eclipse.jetty:jetty-maven-plugin:9.4.9-SNAPSHOT or one of its dependencies could not be resolved: Could not find artifact org.eclipse.jetty:jetty-maven-plugin:jar:9.4.9-SNAPSHOT
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml
+Progress (1): 2.1/14 kBProgress (2): 2.1/14 kB | 2.1/20 kBProgress (2): 4.9/14 kB | 2.1/20 kBProgress (2): 4.9/14 kB | 4.9/20 kBProgress (2): 4.9/14 kB | 7.7/20 kBProgress (2): 7.7/14 kB | 7.7/20 kBProgress (2): 7.7/14 kB | 10/20 kB Progress (2): 7.7/14 kB | 13/20 kBProgress (2): 7.7/14 kB | 16/20 kBProgress (2): 10/14 kB | 16/20 kB Progress (2): 10/14 kB | 19/20 kBProgress (2): 10/14 kB | 20 kB   Progress (2): 13/14 kB | 20 kBProgress (2): 14 kB | 20 kB                              Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml (14 kB at 33 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml (20 kB at 49 kB/s)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.203 s
+[INFO] Finished at: 2018-03-22T01:53:47-05:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] No plugin found for prefix 'jetty-maven-plugin' in the current project and in the plugin groups [org.apache.maven.plugins, org.codehaus.mojo] available from the repositories [local (C:\Users\sundh\.m2\repository), central (https://repo.maven.apache.org/maven2)] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/NoPluginFoundForPrefixException
