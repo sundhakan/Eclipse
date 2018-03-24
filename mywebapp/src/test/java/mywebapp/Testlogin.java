@@ -12,8 +12,8 @@ public class Testlogin extends TestCase {
 		//System.setProperty("webdriver.gecko.driver","D:\\Java\\Practice\\Practice Workspaces\\Seleni\\geckodriver-v0.19.1-win64\\geckodriver.exe");
 		System.setProperty("webdriver.gecko.driver","geckodriver.exe");
 		WebDriver driver = new FirefoxDriver();
-		driver.get("http://localhost:8080/mywebapp/");
-		fail("Not yet implemented");
+		driver.get("http://localhost:8050/mywebapp/");
+		//fail("Not yet implemented");
 	}
 
 }
