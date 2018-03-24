@@ -13,7 +13,7 @@ public class Testlogin extends TestCase {
 		System.setProperty("webdriver.gecko.driver","geckodriver.exe");
 		WebDriver driver = new FirefoxDriver();
 		driver.get("http://localhost:8080/mywebapp/");
-		//fail("Not yet implemented");
+		fail("Not yet implemented");
 	}
 
 }
