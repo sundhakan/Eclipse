@@ -1,4 +1,6 @@
 import java.io.IOException;
+
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -24,5 +26,7 @@ public class login extends HttpServlet
 	System.out.println("testee");
 	System.out.println("chnages");
 	response.getWriter().append("Served at: ").append(request.getContextPath());
+	//RequestDispatcher rd1=request.getRequestDispatcher("guesterror.jsp");
+	//rd1.forward(request, response);
 	}
 }
