@@ -10,6 +10,8 @@
   <name>mywebapp Maven Webapp</name>
   <url>http://maven.apache.org</url>
   
+  
+  
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -37,6 +39,20 @@
     <artifactId>selenium-firefox-driver</artifactId>
     <version>3.11.0</version>
 </dependency>
+	
+<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
+<dependency>
+    <groupId>org.hibernate</groupId>
+    <artifactId>hibernate-core</artifactId>
+    <version>5.2.16.Final</version>
+</dependency>
+
+<dependency>
+    <groupId>com.oracle</groupId>
+    <artifactId>ojdbc14</artifactId>
+    <version>10.2.0.5</version>
+</dependency>
+
 	</dependencies>
   
   <build>
@@ -78,9 +94,20 @@
    <stopWait>10</stopWait>
 </configuration>
 <!-- jetty:run     jetty:stop -->
+</plugin> 
 
-</plugin>      
+
+     
     </plugins>
     <finalName>mywebapp</finalName>
+  <!--    
+  <resources>
+  <resource>
+  <filtering>true</filtering>
+  <directory>src/main/resources</directory>
+  </resource>
+  </resources>  
+    -->
+    
   </build> 
  </project>

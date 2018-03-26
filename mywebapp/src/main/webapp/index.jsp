@@ -2,7 +2,7 @@
 <body>
 <h2>Hello World..???!!!888</h2>
 
-<form name="loginForm" method="get" action="login1">
+<form name="loginForm" method="get" action="login">
 Username:<input type="text" name="username"> 
 </br>
 </br>
