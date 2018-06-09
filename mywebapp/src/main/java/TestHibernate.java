@@ -10,7 +10,7 @@ public class TestHibernate {
 
 		Userinfo ui=new Userinfo();
 		ui.setUserid("username444");
-		ui.setUsername("password");
+		ui.setUsername("passwrd");
 		
 		//File f = new File("C://hibernate.cfg.xml");
 //		sessions = new Configuration().configure(f).buildSessionFactory(); 
