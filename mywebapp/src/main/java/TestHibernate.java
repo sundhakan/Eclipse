@@ -22,9 +22,7 @@ public class TestHibernate {
 	    session.save(ui);
 	    session.getTransaction().commit();
 		// TODO Auto-generated method stub
-
 	}
-
 }
 
 
