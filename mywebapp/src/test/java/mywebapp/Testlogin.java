@@ -18,9 +18,9 @@ public class Testlogin extends TestCase {
 		WebDriver driver = new FirefoxDriver();
 		driver.get("http://localhost:8080/mywebapp/");
 		driver.findElement(By.name("username")).sendKeys("hahahahhhahahaha");
-		driver.findElement(By.name("password")).sendKeys("dhakan007");
+		driver.findElement(By.name("password")).sendKeys("dhakan009");
 		driver.findElement(By.name("submit")).click();
-		System.out.println("Yureaaaaaa...!!!!!");
+		System.out.println("Yurekkaaaaaaa...!!!!!");
 		//fail("Not yet implemented")
 	}
 }
