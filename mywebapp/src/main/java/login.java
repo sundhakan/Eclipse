@@ -34,7 +34,7 @@ public class login extends HttpServlet
     session.getTransaction().commit();
     
 	/*System.out.println(username1);
-	System.out.println(password1);
+	System.out.println(passwod1);
 		
 	System.out.println("try");
 	System.out.println("testee");
