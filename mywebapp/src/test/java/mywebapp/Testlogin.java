@@ -20,7 +20,7 @@ public class Testlogin extends TestCase {
 		driver.findElement(By.name("username")).sendKeys("hahahahhhahahaha");
 		driver.findElement(By.name("password")).sendKeys("dhakan007");
 		driver.findElement(By.name("submit")).click();
-		System.out.println("Yurekkaaaaaaa...!!!!!");
+		System.out.println("Yureaaaaaa...!!!!!");
 		//fail("Not yet implemented")
 	}
 }

@@ -17,7 +17,7 @@ public class NewTest {
       System.setProperty("webdriver.gecko.driver", driverPath);
       driver = new FirefoxDriver();
       driver.get(baseUrl);
-      String expectedTitle = "Welcome: Mercury Tours";
+      String expectedTitle = "Welcoe: Mercury Tours";
       String actualTitle = driver.getTitle();
       Assert.assertEquals(actualTitle, expectedTitle);
       driver.close();
